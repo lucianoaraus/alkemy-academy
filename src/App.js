@@ -1,12 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Login from "./Components/Login/Login";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h2>Hello World!</h2>
-    </div>
+    <>
+      <Login />
+    </>
   );
 }
-
-export default App;
